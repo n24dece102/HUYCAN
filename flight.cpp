@@ -4,14 +4,19 @@ using namespace std;
 
 void addFlight(vector<Flight> &flights) {
     Flight f;
+    
     cout << "Nhap ma chuyen bay";
     cin >> f.flightID;
+    
     cout << "Nhap noi di";
     cin >> f.departure;
+    
     cout << "Nhap noi den";
     cin >> f.destination;
+    
     cout << "Nhap ngay bay";
     cin >> f.date;
+    
     cout << "Nhap so ghe trong";
     cin >> f.availableSeats;
 
@@ -36,4 +41,5 @@ void searchFilght(const vector<Flight> &flights, const string &departure, const 
             cout << f.flightID << " - " << f.date << " ( " << f.availableSeats << " ghe trong)\n";
             
     }
+
 }
