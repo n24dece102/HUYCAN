@@ -1,4 +1,4 @@
-#include "menu.h"
+#include "menu.h" //help: fatal error: menu.h: No such file or directory
 #include <iostream>
 using namespace std;
 
@@ -13,4 +13,5 @@ void showMainMenu() {
     cout << "0. Thoat\n";
     cout << "==============================\n";
     cout << "Chon: ";
+
 }
